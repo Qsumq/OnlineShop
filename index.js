@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", initialise);
 debugger
 // Extract user ID from the URL
 const url = window.location.href;
-const userId = url.match(/u(\d+)/)[1]; // Extract the numeric part after 'u'
+//const userId = url.match(/u(\d+)/)[1]; // Extract the numeric part after 'u'
 console.log(`User ID: ${userId}`);
-
+alert(url);
 let allProducts;
 
 let cart = []; // <= added code

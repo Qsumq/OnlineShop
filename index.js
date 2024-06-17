@@ -1,12 +1,8 @@
 document.addEventListener("DOMContentLoaded", initialise);
 
 const url = window.location.href;
-alert(url);
 // Regular expression to extract the number between "=" and "#"
 let userId = url.match(/=(\d+)#/)[1];
-
-// Extract user ID from the URL
-alert(userId);
 let allProducts;
 
 let cart = []; // <= added code

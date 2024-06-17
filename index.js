@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", initialise);
+debugger
 // Extract user ID from the URL
 const url = window.location.href;
 const userId = url.match(/u(\d+)/)[1]; // Extract the numeric part after 'u'
